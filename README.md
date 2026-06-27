@@ -6,7 +6,7 @@
 
 ## 🚀 About Me
 **AI/ML Engineer & Data Analyst** | B.Tech CS (AI & ML) @ LNCT University, 2026  
-📍 Bhopal, India | Open to **Remote · Singapore · Web3 / Fintech**
+📍 Bhopal, India | Open to **Remote · India · Web3 / Fintech**
 
 I build end-to-end AI systems — from RAG pipelines and LLM fine-tuning to real-time computer vision and BI dashboards. Passionate about **blockchain data analytics**, **on-chain intelligence**, and deploying models that solve real problems.
 
