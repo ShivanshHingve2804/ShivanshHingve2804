@@ -62,4 +62,4 @@ Real-time face recognition + anti-spoofing system. >95% accuracy, 80% reduction 
 ---
 
 ## 🎯 Currently Targeting
-`Data Analyst` · `ML Engineer` · `Web3 / DeFi Analytics` · `Binance Accelerator Program`
+`Data Analyst` · `ML Engineer` · `Web3 / DeFi Analytics` 
