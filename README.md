@@ -87,15 +87,6 @@ I build **production-grade Python tools and AI systems** — from CLI-based stat
 
 ---
 
-## 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ShivanshHingve2804&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShivanshHingve2804&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
-</p>
-
----
-
 ## 🎯 What I'm Looking For
 
 - **AI Engineering roles** — building/evaluating AI systems, crafting datasets for model training, agentic debugging
