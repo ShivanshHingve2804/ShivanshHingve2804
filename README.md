@@ -1,101 +1,54 @@
 <h1 align="center">Hi, I'm Shivansh Hingve 👋</h1>
 
 <p align="center">
-  <strong>AI/ML Engineer · Software Developer · Data Analyst</strong><br>
-  Building production-grade AI systems, debugging tools, and data pipelines
+  <strong>Software &amp; ML Engineer</strong><br>
+  Python applications, AI features, data pipelines, and evaluation tools
 </p>
 
 <p align="center">
   <a href="https://linkedin.com/in/shivansh-hingve-6a18a7258"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://huggingface.co/ShivanshSenpai"><img src="https://img.shields.io/badge/🤗%20HuggingFace-ShivanshSenpai-FFD21F?style=for-the-badge" alt="HuggingFace"/></a>
+  <a href="https://huggingface.co/ShivanshSenpai"><img src="https://img.shields.io/badge/🤗%20HuggingFace-ShivanshSenpai-FFD21F?style=for-the-badge" alt="Hugging Face"/></a>
   <a href="mailto:shivanshhingve@gmail.com"><img src="https://img.shields.io/badge/Email-shivanshhingve@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
 ---
 
-## 🚀 About Me
+## About
 
-**B.Tech CS (AI & ML)** @ LNCT University, 2026 · 📍 Bhopal, India  
-Open to **Remote · Contract · Full-time** roles in AI engineering, developer tooling, and data analysis.
+B.Tech in Computer Science (AI & ML), LNCT University, graduated May 2026 · Pune, India · Open to relocation and remote full-time roles.
 
-I build **production-grade Python tools and AI systems** — from CLI-based static analyzers and AI debugging benchmarks to RAG pipelines and LLM fine-tuning. I also bring a strong data analytics foundation with BI dashboards and macroeconomic trend analysis.
+I build Python software and applied AI projects, from model training and retrieval pipelines to APIs, data workflows, and automated evaluation. My projects include a local RAG document-analysis app, a transactional payment API, and a benchmark for evaluating AI coding-agent fixes.
 
-**What I bring to the table:**
-- 🔧 **Software Engineering** — Modular Python packages, CLI tools, Docker, CI/CD, test suites
-- 🤖 **AI/ML Systems** — RAG pipelines, LLM fine-tuning (GPT-2), GNNs, CNNs, BiLSTMs
-- 🔍 **AI Evaluation & Debugging** — Crafting realistic debugging benchmarks for AI coding agents
-- 📊 **Data Analysis** — SQL, Excel dashboards, statistical modeling, BI reporting
+## Featured Projects
 
----
+| Project | What it demonstrates |
+|---------|----------------------|
+| [RAG Document Analysis](https://github.com/ShivanshHingve2804/RAG-Document-Analysis-System) | PDF ingestion, LangChain, FAISS retrieval, local LLMs, Streamlit, and a reproducible relevance benchmark. |
+| [PayFlow](https://github.com/ShivanshHingve2804/PayFlow) | FastAPI and PostgreSQL payment API with ACID transfers, idempotency, concurrency tests, Kafka events, and an Airflow pipeline. |
+| [CodeDebugArena](https://github.com/ShivanshHingve2804/CodeDebugArena) | 12 reproducible Python bug challenges with verified fixes, pytest grading, and root-cause analyses for AI coding-agent evaluation. |
+| [FlowGuard](https://github.com/ShivanshHingve2804/FlowGuard) | Thread-safe rate-limiting library with sync/async support, Redis backing, ASGI middleware, and automated tests. |
+| [GPT-2 Fine-Tuning](https://github.com/ShivanshHingve2804/Demo-Gpt2-small-Model-with-Instruction-and-Classification-Fine-Tuning) | PyTorch fine-tuning for instruction following and spam classification. |
+| [Face Liveness Detection](https://github.com/ShivanshHingve2804/Face_Liveness_Detection_using_CNN_and_EAR_or_MAR) | Computer-vision project combining CNNs and facial landmark signals for liveness detection. |
+| [Polymer Property Prediction](https://github.com/ShivanshHingve2804/Polymer-property-prediction-model) | Message Passing Neural Network for predicting polymer properties from molecular structure. |
+| [PyAudit](https://github.com/ShivanshHingve2804/PyAudit) | Zero-dependency Python AST analyzer with 20 rules for bugs, security issues, and code quality. |
 
-## 🏗️ Featured Projects
+## Skills
 
-### 🔧 Software Engineering & AI Tooling
+**Languages & backend:** Python, SQL, FastAPI, REST APIs, async Python, SQLAlchemy, PostgreSQL, MySQL  
+**AI/ML:** PyTorch, Hugging Face Transformers, LangChain, RAG, FAISS, scikit-learn, TensorFlow, OpenCV  
+**Data & infrastructure:** ETL, Pandas, NumPy, Kafka, Airflow, Redis, Docker, GitHub Actions, pytest  
+**Other:** Git, Bash, Streamlit, Power BI, Tableau
 
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| [**PyAudit**](https://github.com/ShivanshHingve2804/PyAudit) | Production-grade CLI for Python code quality analysis — 20 AST-based rules across bugs, security, and style. Zero dependencies, Docker, CI. | `Python` `AST` `argparse` `Docker` `GitHub Actions` |
-| [**CodeDebugArena**](https://github.com/ShivanshHingve2804/CodeDebugArena) | Curated benchmark of 12 real-world Python bugs for evaluating AI coding agents. Each challenge: buggy code + test suite + verified fix + root cause analysis. | `Python` `pytest` `AI Evaluation` `Debugging` |
-| [**RAG Document Analysis**](https://github.com/ShivanshHingve2804/RAG-Document-Analysis-System) | Privacy-first RAG system for PDF Q&A using local LLMs (Ollama/HuggingFace). CLI + Streamlit UI, FAISS vector search, benchmark evaluation. | `LangChain` `FAISS` `Ollama` `Streamlit` `Docker` |
+## Open Source
 
-### 🤖 AI / ML / Deep Learning
+Contributed two pull requests (#280 and #281) to Binance's `binance-skills-hub` AI-agent skills marketplace.
 
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| [**GPT-2 Fine-Tuning**](https://github.com/ShivanshHingve2804/Demo-Gpt2-small-Model-with-Instruction-and-Classification-Fine-Tuning) | Instruction and classification fine-tuning of GPT-2 with custom data annotation pipeline. | `PyTorch` `Transformers` `GPT-2` `NLP` |
-| [**Polymer Property Prediction**](https://github.com/ShivanshHingve2804/Polymer-property-prediction-model) | MPNN-based GNN predicting polymer properties from SMILES molecular representations. | `PyTorch Geometric` `MPNN` `Chemistry` |
-| [**Face Liveness Detection**](https://github.com/ShivanshHingve2804/Face_Liveness_Detection_using_CNN_and_EAR_or_MAR) | Hybrid CNN + EAR/MAR anti-spoofing system for biometric security. | `CNN` `OpenCV` `SVM` `Computer Vision` |
-| [**Sarcasm Detection**](https://github.com/ShivanshHingve2804/Sarcasm_Detection_Model) | BiLSTM-based NLP model for detecting sarcasm in text. | `BiLSTM` `NLP` `TensorFlow` |
+## What I'm Looking For
 
-### 📊 Data Analysis & BI
-
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| [**Macroeconomic Trend Analysis**](https://github.com/ShivanshHingve2804/Decade-Wise-Macroeconomic-Trend-Volatility-Analysis-Using-Excel) | Interactive Excel dashboard analyzing decade-wise economic trends and volatility with KPI tracking. | `Excel` `Finance` `BI` `Data Analysis` |
-| [**ChatGPT Reviews Analysis**](https://github.com/ShivanshHingve2804/Chat-GPT-Reviews-Analysis) | Sentiment and topic analysis of ChatGPT user reviews. | `Python` `NLP` `Jupyter` |
-| [**Coca-Cola Sales Analysis**](https://github.com/ShivanshHingve2804/Coca-Cola-Sales-Analysis) | Sales performance analysis and dashboard. | `Data Analysis` `Visualization` |
-
----
-
-## 🛠️ Tech Stack
-
-**Languages & Core**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-
-**AI / ML / GenAI**  
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/🤗%20Transformers-FFD21F?style=flat)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
-![FAISS](https://img.shields.io/badge/FAISS-4267B2?style=flat)
-
-**DevOps & Tools**  
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
-
-**Data & BI**  
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
-
----
-
-## 🎯 What I'm Looking For
-
-- **AI Engineering roles** — building/evaluating AI systems, crafting datasets for model training, agentic debugging
-- **Developer Tooling** — CLI tools, static analysis, code quality infrastructure
-- **Data Analyst positions** — BI dashboards, SQL-driven insights, statistical analysis
-- **Open to:** Remote, contract, or full-time opportunities
+Early-career software or ML engineering roles where I can build useful AI-enabled products, backend services, data pipelines, and evaluation systems. Open to remote full-time work and relocation.
 
 ---
 
 <p align="center">
-  <i>If you're building something interesting with AI, let's talk → <a href="mailto:shivanshhingve@gmail.com">shivanshhingve@gmail.com</a></i>
+  <i>Let's build something useful: <a href="mailto:shivanshhingve@gmail.com">shivanshhingve@gmail.com</a></i>
 </p>
