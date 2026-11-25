@@ -1,13 +1,14 @@
 <h1 align="center">Hi, I'm Shivansh Hingve 👋</h1>
 
 <p align="center">
-  <strong>Software &amp; ML Engineer</strong><br>
-  Python applications, AI features, data pipelines, and evaluation tools
+  <strong>Backend, Analytics &amp; AI Systems Engineer</strong><br>
+  Fault-Tolerant Distributed Systems · High-Throughput Data Pipelines · Reproducible AI Evaluation
 </p>
 
 <p align="center">
   <a href="https://linkedin.com/in/shivansh-hingve-6a18a7258"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://huggingface.co/ShivanshSenpai"><img src="https://img.shields.io/badge/🤗%20HuggingFace-ShivanshSenpai-FFD21F?style=for-the-badge" alt="Hugging Face"/></a>
+  <a href="https://codedebugarena-sf2pdj.v2.appdeploy.ai/"><img src="https://img.shields.io/badge/Live%20Benchmark-CodeDebugArena-EA580C?style=for-the-badge" alt="CodeDebugArena Live"/></a>
+  <a href="https://huggingface.co/ShivanshSenpai"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-ShivanshSenpai-FFD21F?style=for-the-badge" alt="Hugging Face"/></a>
   <a href="mailto:shivanshhingve@gmail.com"><img src="https://img.shields.io/badge/Email-shivanshhingve@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
@@ -15,40 +16,64 @@
 
 ## About
 
-B.Tech in Computer Science (AI & ML), LNCT University, graduated May 2026 · Pune, India · Open to relocation and remote full-time roles.
+B.Tech in Computer Science (AI & ML), LNCT University (May 2026) · Pune, India · **Open to full-time Founding / Backend / AI Systems roles (relocation or remote)**.
 
-I build Python software and applied AI projects, from model training and retrieval pipelines to APIs, data workflows, and automated evaluation. My projects include a local RAG document-analysis app, a transactional payment API, and a benchmark for evaluating AI coding-agent fixes.
+I build production-grade distributed backends, PostgreSQL analytics pipelines, and reproducible evaluation infrastructure for AI systems. My recent work focuses on the core systems problems behind modern AI products:
 
-## Featured Projects
+- **Durable Multi-Step Orchestration & Saga Rollback** ([AdOrchestrator](https://github.com/ShivanshHingve2804/adorchestrator))
+- **Race-Safe Concurrency & Distributed Locking** ([AdOrchestrator](https://github.com/ShivanshHingve2804/adorchestrator), [PayFlow](https://github.com/ShivanshHingve2804/PayFlow), [FlowGuard](https://github.com/ShivanshHingve2804/FlowGuard))
+- **AI Agent Benchmarking & Deterministic Evaluation** ([CodeDebugArena](https://github.com/ShivanshHingve2804/CodeDebugArena), [RAG System](https://github.com/ShivanshHingve2804/RAG-Document-Analysis-System), [PyAudit](https://github.com/ShivanshHingve2804/PyAudit))
 
-| Project | What it demonstrates |
-|---------|----------------------|
-| [RAG Document Analysis](https://github.com/ShivanshHingve2804/RAG-Document-Analysis-System) | PDF ingestion, LangChain, FAISS retrieval, local LLMs, Streamlit, and a reproducible relevance benchmark. |
-| [PayFlow](https://github.com/ShivanshHingve2804/PayFlow) | FastAPI and PostgreSQL payment API with ACID transfers, idempotency, concurrency tests, Kafka events, and an Airflow pipeline. |
-| [CodeDebugArena](https://github.com/ShivanshHingve2804/CodeDebugArena) | 12 reproducible Python bug challenges with verified fixes, pytest grading, and root-cause analyses for AI coding-agent evaluation. |
-| [FlowGuard](https://github.com/ShivanshHingve2804/FlowGuard) | Thread-safe rate-limiting library with sync/async support, Redis backing, ASGI middleware, and automated tests. |
-| [GPT-2 Fine-Tuning](https://github.com/ShivanshHingve2804/Demo-Gpt2-small-Model-with-Instruction-and-Classification-Fine-Tuning) | PyTorch fine-tuning for instruction following and spam classification. |
-| [Face Liveness Detection](https://github.com/ShivanshHingve2804/Face_Liveness_Detection_using_CNN_and_EAR_or_MAR) | Computer-vision project combining CNNs and facial landmark signals for liveness detection. |
-| [Polymer Property Prediction](https://github.com/ShivanshHingve2804/Polymer-property-prediction-model) | Message Passing Neural Network for predicting polymer properties from molecular structure. |
-| [PyAudit](https://github.com/ShivanshHingve2804/PyAudit) | Zero-dependency Python AST analyzer with 20 rules for bugs, security issues, and code quality. |
+---
 
-## Skills
+## Flagship Systems
 
-**Languages & backend:** Python, SQL, FastAPI, REST APIs, async Python, SQLAlchemy, PostgreSQL, MySQL  
-**AI/ML:** PyTorch, Hugging Face Transformers, LangChain, RAG, FAISS, scikit-learn, TensorFlow, OpenCV  
-**Data & infrastructure:** ETL, Pandas, NumPy, Kafka, Airflow, Redis, Docker, GitHub Actions, pytest  
-**Other:** Git, Bash, Streamlit, Power BI, Tableau
+### Distributed Backend & Analytics Engineering
 
-## Open Source
+| Project | Stack | Engineering Highlights |
+|---|---|---|
+| [**AdOrchestrator**](https://github.com/ShivanshHingve2804/adorchestrator) | Python · Django · Temporal · Celery · PostgreSQL 16 · Redis · RabbitMQ · Docker | **Fault-tolerant campaign orchestration & analytics engine.** Durable Temporal saga workflows across flaky platform simulators; two-layer Redis `SET NX` + PostgreSQL `SELECT FOR UPDATE` budget locking (proven in 20-thread races); UTC-day partitioned `AdEvent` table with concurrently refreshed materialized views (`1.26 ms` cold / `0.21 ms` warm on 25k events); Celery Beat anomaly auto-remediation; VLM/LLM creative correlation. **39 tests + live `SIGKILL` worker crash-recovery verified.** |
+| [**PayFlow**](https://github.com/ShivanshHingve2804/PayFlow) | Python · FastAPI · SQLAlchemy · PostgreSQL · Kafka · Airflow · Docker | **ACID-compliant multi-currency fintech API (8 currencies).** Pessimistic row locking with consistent lock ordering for deadlock prevention, idempotency keys verified under concurrent stress tests, post-commit Kafka streaming with deduplicating consumer, and Airflow daily reconciliation DAGs. |
+| [**FlowGuard**](https://github.com/ShivanshHingve2804/FlowGuard) | Python · FastAPI · Starlette · Redis · pytest · AsyncIO | **Thread-safe distributed rate limiter.** Implements Token Bucket, Leaky Bucket, Sliding Window Log, and Sliding Window Counter with sync/async APIs, Redis cross-process backing, and ASGI middleware (`X-RateLimit-*`, HTTP 429 `Retry-After`). |
 
-Contributed two pull requests (#280 and #281) to Binance's `binance-skills-hub` AI-agent skills marketplace.
+### AI Evaluation, Retrieval & Developer Tooling
 
-## What I'm Looking For
+| Project | Stack | Engineering Highlights |
+|---|---|---|
+| [**CodeDebugArena**](https://github.com/ShivanshHingve2804/CodeDebugArena) ([Live](https://codedebugarena-sf2pdj.v2.appdeploy.ai/)) | Python · pytest · Docker · FastAPI | **Reproducible benchmark of 12 real-world Python bugs for AI coding agents.** Covers race conditions, IEEE 754 precision, iterator invalidation, and cache poisoning — each paired with verified ground-truth fixes, root-cause analyses, sandboxed Docker + Landlock execution, auto-graded pytest suites, and a live evaluation leaderboard. |
+| [**RAG Document Analysis**](https://github.com/ShivanshHingve2804/RAG-Document-Analysis-System) | Python · LangChain · FAISS · Ollama · Streamlit | **Local, privacy-first RAG pipeline with quantitative evaluation.** Automated benchmark harness scoring ground-truth Q&A pairs via deterministic keyword coverage and semantic cosine similarity (`>90%` query relevance without cloud APIs). |
+| [**PyAudit**](https://github.com/ShivanshHingve2804/PyAudit) | Python · AST · CLI | **Zero-dependency Python static code & security analyzer.** Inspects AST directly without executing target code across 20 bug, security, and code-quality rules built for frictionless CI gating. |
 
-Early-career software or ML engineering roles where I can build useful AI-enabled products, backend services, data pipelines, and evaluation systems. Open to remote full-time work and relocation.
+<details>
+<summary><b>Additional Applied ML & Data Projects</b></summary>
+
+- [**GPT-2 Instruction & Classification Fine-Tuning**](https://github.com/ShivanshHingve2804/Demo-Gpt2-small-Model-with-Instruction-and-Classification-Fine-Tuning) — PyTorch transformer fine-tuning on GPT-2 (124M) with cross-model output comparison against local Llama 3 via Ollama.
+- [**Polymer Property Prediction (MPNN)**](https://github.com/ShivanshHingve2804/Polymer-property-prediction-model) — Multi-target Graph Neural Network (PyTorch Geometric) predicting 5 physical properties from SMILES molecular graphs.
+- [**Real-Time Face Liveness Detection**](https://github.com/ShivanshHingve2804/Face_Liveness_Detection_using_CNN_and_EAR_or_MAR) — Hybrid CNN + Eye/Mouth Aspect Ratio pipeline distinguishing live faces from spoofs.
+
+</details>
+
+---
+
+## Experience & Open Source
+
+- **Data Analytics Process Automation Intern** · *AICTE-EduSkills / Alteryx SparkED (Remote, Jan–Mar 2025)* — Automated Python & Alteryx ETL workflows cutting manual processing time by ~35%.
+- **Machine Learning Intern** · *8bit Warriors (Remote, Jan–Feb 2024)* — Built supervised/unsupervised `scikit-learn` models improving accuracy by ~18% and cutting preprocessing time by ~30%.
+- **Open Source — `binance/binance-skills-hub`**: Contributed market anomaly detection AI-agent skill & documentation PRs ([#280](https://github.com/binance/binance-skills-hub/pull/280), [#281](https://github.com/binance/binance-skills-hub/pull/281)).
+
+---
+
+## Technical Stack
+
+| Domain | Technologies |
+|---|---|
+| **Backend & Distributed Systems** | Python 3.12, Django / DRF, FastAPI, Temporal, Celery, RabbitMQ, Redis, Kafka, AsyncIO |
+| **Databases & Analytics** | PostgreSQL 16 (partitioning, materialized views, `SELECT FOR UPDATE`), SQLAlchemy, SQL, Pandas, NumPy, Airflow |
+| **AI, LLMs & Evaluation** | PyTorch, LangChain, FAISS, Ollama, OpenAI / Gemini APIs, RAG, VLM pipelines, reproducible agent benchmarks |
+| **Infra & Quality** | Docker & Compose, GitHub Actions CI/CD, AWS ECS (Fargate), pytest, Ruff, Locust, k6 |
 
 ---
 
 <p align="center">
-  <i>Let's build something useful: <a href="mailto:shivanshhingve@gmail.com">shivanshhingve@gmail.com</a></i>
+  <i>Building reliable backends &amp; measurable AI systems — <a href="mailto:shivanshhingve@gmail.com">shivanshhingve@gmail.com</a></i>
 </p>
